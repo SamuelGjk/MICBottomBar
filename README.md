@@ -6,12 +6,12 @@
 ![](art/screenshot.png)
 
 ## 能干嘛
-1. 定义图标大小 (如果图标不是正方形，则以宽为准进行等比缩放)
-2. 定义选中图标和未选中图标
-3. 定义字体大小
-4. 定义字体选中颜色和未选中颜色
-5. 定义底栏上下内边距
-6. 底栏高度是自适应的，定义了也没用
+- 定义图标大小 (如果图标不是正方形，则以宽为准进行等比缩放)
+- 定义选中图标和未选中图标
+- 定义字体大小
+- 定义字体选中颜色和未选中颜色
+- 定义底栏上下内边距
+- 底栏高度是自适应的，定义了也没用
 
 ## 属性
 | 属性 | 描述 |
@@ -25,7 +25,7 @@
 
 ## 使用
 #### XML
-```
+```xml
 <moe.yukinoneko.micbottombar.MICBottomBar
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:background="@android:color/white" />
 ```
 #### Kotlin
-```
+```kotlin
 bottomBar.addNavigationItems(
         MICBottomBar.NavigationItem(unSelectIconId, selectIconId, title),
         MICBottomBar.NavigationItem(unSelectIconId, selectIconId, title),
