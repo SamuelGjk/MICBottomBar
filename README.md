@@ -24,7 +24,7 @@
 | bb_current_position  | 选中的 item 下标, 从 0 开始 (默认 0) |
 
 ## 使用
-#### XML
+#### Layout
 ```xml
 <moe.yukinoneko.micbottombar.MICBottomBar
         android:id="@+id/bottomBar"
